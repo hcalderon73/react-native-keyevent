@@ -1,3 +1,5 @@
+
+
 # React Native KeyEvent
 
 [![npm version](https://badge.fury.io/js/react-native-keyevent.svg)](http://badge.fury.io/js/react-native-keyevent)
@@ -6,6 +8,16 @@ Capture external keyboard keys or remote control button events
 
 [Learn about Android KeyEvent here](https://developer.android.com/reference/android/view/KeyEvent.html).
 
+### Add New Events.
+displayLabel,
+scanCode,
+unicodeChar,
+getModifiers
+Number,
+isShiftPressed,
+isLongPress,
+isCapsLockOn,
+isCtrlPressed
 
 ### Installation
 
@@ -247,3 +259,4 @@ Whenever you want to use it within React Native code now you can:
 - [ ] Add iOS Support for keyDown and multipleKeys
 - [ ] Implement `keyCode` and `action` on iOS
 - [x] Support for TypeScript projects
+
